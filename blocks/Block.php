@@ -8,8 +8,6 @@ abstract class Block
 {
     protected string $type;
 
-    protected array $elements = [];
-
     protected ?string $blockId = null;
 
     /**
