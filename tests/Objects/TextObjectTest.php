@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Tests\Objects;
+namespace SlackBlocksBuilder\Tests\Objects;
 
-use Objects\PlainTextObject;
+use SlackBlocksBuilder\Objects\PlainTextObject;
 use PHPUnit\Framework\TestCase;
 
 class TextObjectTest extends TestCase

@@ -4,14 +4,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Blocks\\": "blocks/",
-            "Objects\\": "objects/",
-            "Elements\\": "elements/"
+            "SlackBlocksBuilder\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "SlackBlocksBuilder\\Tests\\": "tests/"
         }
     },
     "require-dev": {

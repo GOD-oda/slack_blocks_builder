@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Tests\Blocks;
+namespace SlackBlocksBuilder\Tests\Blocks;
 
-use Blocks\DividerBlock;
+use SlackBlocksBuilder\Blocks\DividerBlock;
 use PHPUnit\Framework\TestCase;
 
 class DividerBlockTest extends TestCase

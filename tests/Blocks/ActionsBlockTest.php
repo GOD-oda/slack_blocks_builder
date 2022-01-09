@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\Blocks;
+namespace SlackBlocksBuilder\Tests\Blocks;
 
-use Blocks\ActionsBlock;
-use Objects\ConfirmationDialogObject;
-use Objects\PlainTextObject;
+use SlackBlocksBuilder\Blocks\ActionsBlock;
+use SlackBlocksBuilder\Objects\ConfirmationDialogObject;
+use SlackBlocksBuilder\Objects\PlainTextObject;
 use PHPUnit\Framework\TestCase;
 
 class ActionsBlockTest extends TestCase

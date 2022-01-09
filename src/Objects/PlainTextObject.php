@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Objects;
+namespace SlackBlocksBuilder\Objects;
 
 class PlainTextObject extends TextObject
 {

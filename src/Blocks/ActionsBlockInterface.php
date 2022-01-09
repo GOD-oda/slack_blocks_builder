@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Blocks;
+namespace SlackBlocksBuilder\Blocks;
 
-use Objects\ConfirmationDialogObject;
+use SlackBlocksBuilder\Objects\ConfirmationDialogObject;
 
 interface ActionsBlockInterface
 {

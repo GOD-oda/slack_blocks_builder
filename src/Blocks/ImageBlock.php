@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Blocks;
+namespace SlackBlocksBuilder\Blocks;
 
-use Objects\PlainTextObject;
+use SlackBlocksBuilder\Objects\PlainTextObject;
 
 class ImageBlock extends Block
 {

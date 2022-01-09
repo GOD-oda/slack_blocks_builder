@@ -2,11 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Elements;
+namespace SlackBlocksBuilder\Blocks;
 
-abstract class Element
+abstract class Block
 {
     protected string $type;
+
+    protected ?string $blockId = null;
 
     /**
      * @return array

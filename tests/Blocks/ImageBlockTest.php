@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Blocks;
+namespace SlackBlocksBuilder\Tests\Blocks;
 
-use Blocks\ImageBlock;
-use Objects\PlainTextObject;
+use SlackBlocksBuilder\Blocks\ImageBlock;
+use SlackBlocksBuilder\Objects\PlainTextObject;
 use PHPUnit\Framework\TestCase;
 
 class ImageBlockTest extends TestCase

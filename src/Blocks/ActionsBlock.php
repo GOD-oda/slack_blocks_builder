@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Blocks;
+namespace SlackBlocksBuilder\Blocks;
 
-use Elements\ButtonElement;
-use Elements\Element;
-use Objects\ConfirmationDialogObject;
+use SlackBlocksBuilder\Elements\ButtonElement;
+use SlackBlocksBuilder\Elements\Element;
+use SlackBlocksBuilder\Objects\ConfirmationDialogObject;
 
 class ActionsBlock extends Block implements ActionsBlockInterface
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\Blocks;
+namespace SlackBlocksBuilder\Tests\Blocks;
 
-use Blocks\HeaderBlock;
-use Objects\PlainTextObject;
+use SlackBlocksBuilder\Blocks\HeaderBlock;
+use SlackBlocksBuilder\Objects\PlainTextObject;
 use PHPUnit\Framework\TestCase;
 
 class HeaderBlockTest extends TestCase

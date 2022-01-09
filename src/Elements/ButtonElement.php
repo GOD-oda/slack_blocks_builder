@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Elements;
+namespace SlackBlocksBuilder\Elements;
 
-use Objects\ConfirmationDialogObject;
-use Objects\PlainTextObject;
+use SlackBlocksBuilder\Objects\ConfirmationDialogObject;
+use SlackBlocksBuilder\Objects\PlainTextObject;
 
 class ButtonElement extends Element
 {

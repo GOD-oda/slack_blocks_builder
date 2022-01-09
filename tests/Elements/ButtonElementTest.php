@@ -2,12 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\Elements;
+namespace SlackBlocksBuilder\Tests\Elements;
 
-use Elements\ButtonElement;
-use Objects\ConfirmationDialogObject;
-use Objects\ConfirmObject;
-use Objects\PlainTextObject;
+use SlackBlocksBuilder\Elements\ButtonElement;
+use SlackBlocksBuilder\Objects\ConfirmationDialogObject;
+use SlackBlocksBuilder\Objects\PlainTextObject;
 use PHPUnit\Framework\TestCase;
 
 class ButtonElementTest extends TestCase
