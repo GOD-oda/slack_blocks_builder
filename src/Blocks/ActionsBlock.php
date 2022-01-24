@@ -5,8 +5,10 @@ declare(strict_types=1);
 namespace SlackBlocksBuilder\Blocks;
 
 use SlackBlocksBuilder\Elements\ButtonElement;
+use SlackBlocksBuilder\Elements\CheckboxGroups;
 use SlackBlocksBuilder\Elements\Element;
 use SlackBlocksBuilder\Objects\ConfirmationDialogObject;
+use SlackBlocksBuilder\Objects\OptionCollection;
 
 class ActionsBlock extends Block implements ActionsBlockInterface
 {
@@ -36,6 +38,23 @@ class ActionsBlock extends Block implements ActionsBlockInterface
 
         return $this;
     }
+
+    /**
+     * @inheritDoc
+     */
+    public function addCheckBoxGroups(OptionCollection $optionCollection, ?string $actionId = null, ?OptionCollection $initialOptions = null, ?ConfirmationDialogObject $confirm = null, ?bool $focusOnLoad = null): ActionsBlockInterface
+    {
+        $this->elements[] = new CheckboxGroups(
+            optionCollection: $optionCollection,
+            actionId: $actionId,
+            initialOptions: $initialOptions,
+            confirm: $confirm,
+            focusOnLoad: $focusOnLoad
+        );
+
+        return $this;
+    }
+
 
     /**
      * @inheritDoc
